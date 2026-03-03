@@ -1,4 +1,4 @@
-<kernel minlts="4.14.336" />
+<kernel minlts="4.14.186" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->
@@ -67,18 +67,6 @@
 		<key>CONFIG_BPF_JIT_ALWAYS_ON</key>
 		<value type="bool">y</value>
 	</config>
-	<config>
-		<key>CONFIG_HAVE_MOVE_PMD</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
-		<key>CONFIG_HAVE_MOVE_PUD</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
-		<key>CONFIG_USERFAULTFD</key>
-		<value type="bool">y</value>
-	</config>
 </group>
 
 <!-- x86 base requirements -->
@@ -99,18 +87,6 @@
 	</config>
 	<config>
 		<key>CONFIG_RETPOLINE</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
-		<key>CONFIG_HAVE_MOVE_PMD</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
-		<key>CONFIG_HAVE_MOVE_PUD</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
-		<key>CONFIG_USERFAULTFD</key>
 		<value type="bool">y</value>
 	</config>
 	<config>
